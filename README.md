@@ -1,0 +1,1 @@
+# MCBE-Addon-Translation-Github-Action
