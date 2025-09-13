@@ -22,3 +22,16 @@ target_langs_manual: ['fr'] # languages to manually translate; changed/added lin
 Available language codes can be found here. https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages
 
 Some addons may include a credit section for translators. If yours does, uncomment the last two lines and change the `translator_credit_key`. Any auto translations will be filled with the text in `translator_credit_value`.
+
+## Running the script manually
+Setup Environment
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r .github/scripts/requirements.txt
+```
+
+Run
+```bash
+python .github/scripts/auto_translate.py 
+```
