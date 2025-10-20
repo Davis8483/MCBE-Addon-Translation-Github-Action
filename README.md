@@ -20,7 +20,8 @@ target_langs_manual: ['fr_FR'] # languages to manually translate; changed/added 
 ```
 
 Available language codes can be found here. https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages <br>
-The script will parse only the language code before the underscore!
+> [!NOTE]
+> The script will parse only the language code before the underscore!
 
 Some addons may include a credit section for translators. If yours does, uncomment the last two lines and change the `translator_credit_key`. Any auto translations will be filled with the text in `translator_credit_value`.
 
